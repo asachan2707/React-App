@@ -1,0 +1,10 @@
+.todoItem {
+    text-align: center;
+    display: block;
+    border-bottom: 2px solid gray;
+    margin: 0 20px 0 40px;
+}
+.todoText {
+    display: inline-block;
+    padding-left: 10px;
+} 
