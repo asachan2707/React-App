@@ -15,6 +15,7 @@ import ChangeState from './components/ClassBased/ChangeState/ChangeState';
 import Practice1 from './components/ClassBased/Practice/Practice1';
 import Clock from './components/ClassBased/Clock-lib/Clock'
 import Toggle from './components/ClassBased/Toggle-lib/Toggle'
+import Login from './components/ClassBased/Login-lib/Login'
 
 // Functional component start
     // 1 Normal page with header, footer and main content section
@@ -61,4 +62,7 @@ import Toggle from './components/ClassBased/Toggle-lib/Toggle'
     // ReactDOM.render(<Clock />, document.getElementById('root'));  // explanation in Clock component
 
     // Toggle
-    ReactDOM.render(<Toggle />, document.getElementById('root'));
+    // ReactDOM.render(<Toggle />, document.getElementById('root'));
+
+    // Login console
+    ReactDOM.render(<Login />, document.getElementById('root'));
