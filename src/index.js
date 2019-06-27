@@ -16,6 +16,8 @@ import Practice1 from './components/ClassBased/Practice/Practice1';
 import Clock from './components/ClassBased/Clock-lib/Clock'
 import Toggle from './components/ClassBased/Toggle-lib/Toggle'
 import Login from './components/ClassBased/Login-lib/Login'
+import Blog from './components/ClassBased/Blog-lib/Blog';
+import Form_Reservation from './components/ClassBased/Reservation-lib/ReservationForm'
 
 // Functional component start
     // 1 Normal page with header, footer and main content section
@@ -55,14 +57,20 @@ import Login from './components/ClassBased/Login-lib/Login'
     // Practice - 1
     // ReactDOM.render(<Practice1 />, document.getElementById('root'));
 
-    // TODO app classbased with more features
+    // 11 TODO app classbased with more features
     // ReactDOM.render(<TodoClassList />, document.getElementById('root'));
 
-    // Create a clock 
+    // 12 Create a clock 
     // ReactDOM.render(<Clock />, document.getElementById('root'));  // explanation in Clock component
 
-    // Toggle
+    // 13 Toggle
     // ReactDOM.render(<Toggle />, document.getElementById('root'));
 
-    // Login console
-    ReactDOM.render(<Login />, document.getElementById('root'));
+    // 14 Login console
+    // ReactDOM.render(<Login />, document.getElementById('root'));
+
+    // 15 Unique 'Key'
+    // ReactDOM.render(<Blog />, document.getElementById('root'));
+
+    // 16 Form
+    ReactDOM.render(<Form_Reservation />, document.getElementById('root'));
