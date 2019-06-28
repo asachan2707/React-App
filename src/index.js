@@ -18,6 +18,7 @@ import Toggle from './components/ClassBased/Toggle-lib/Toggle'
 import Login from './components/ClassBased/Login-lib/Login'
 import Blog from './components/ClassBased/Blog-lib/Blog';
 import Form_Reservation from './components/ClassBased/Reservation-lib/ReservationForm'
+import Temparature_Calculator from './components/ClassBased/Temp_Calculator/Temparature_Calculator'
 
 // Functional component start
     // 1 Normal page with header, footer and main content section
@@ -73,4 +74,7 @@ import Form_Reservation from './components/ClassBased/Reservation-lib/Reservatio
     // ReactDOM.render(<Blog />, document.getElementById('root'));
 
     // 16 Form
-    ReactDOM.render(<Form_Reservation />, document.getElementById('root'));
+    // ReactDOM.render(<Form_Reservation />, document.getElementById('root'));
+
+    // 17 Lifting State Up > Temparature calculator
+    ReactDOM.render(<Temparature_Calculator />, document.getElementById('root'));

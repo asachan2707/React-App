@@ -12,18 +12,18 @@ class Form_Reservation extends React.Component {
 
     handleInputChange(event) {
         const target = event.target;
-        const value = target.type ==='checkbox' ? target.checked : target.value;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
         this.setState({ [name]: value });
     }
 
     render() {
         return (
-            <div>Form
+            <div>
                 <form>
                     <label>
                         Ready:
-                        <input  
+                        <input
                             name="isGoing"
                             type="checkbox"
                             checked={this.state.isGoing}
@@ -31,7 +31,7 @@ class Form_Reservation extends React.Component {
                     </label>
                     <br />
                     <label>
-                        No. of Gustes: 
+                        No. of Gustes:
                         <input
                             name="numberOfGuests"
                             type="number"
