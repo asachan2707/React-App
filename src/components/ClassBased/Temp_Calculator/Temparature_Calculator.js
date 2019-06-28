@@ -7,13 +7,13 @@ const scaleName = {
 
 function Boiling_Verdict(props) {
     let message;
-    if ((props.temperature >= 100 && props.unit === 'Celsius') || (props.temperature >= 36 && props.unit === 'Fahrenheit')) {
+    if ((props.temperature >= 37.78 && props.unit === 'Celsius') || (props.temperature >= 100 && props.unit === 'Fahrenheit')) {
         message = 'Water will boil at this temperature.'
     } else {
-        if (props.unit === 'Fahrenheit') {
-            message = 'Water will boil only at boiling temperature which is 36F.';
+        if (props.unit === 'Celsius') {
+            message = 'Water will boil only at boiling temperature which is 37.78C.';
         } else {
-            message = 'Water will boil only at boiling temperature which is 100C.';
+            message = 'Water will boil only at boiling temperature which is 100F.';
         }
     }
 
